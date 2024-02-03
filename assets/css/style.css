@@ -581,6 +581,9 @@ font-weight: 700;
     background: #F9F9F9;
     border-radius: 5px;
 }
+/* .footer .social-link + .social-link {
+    margin-left: 16px;
+} */
 .footer .social-link:hover {
     background: #ebebbe;
 }
