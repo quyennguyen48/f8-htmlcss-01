@@ -46,15 +46,26 @@ a {
 /* ============End Common=========== */
 
 /* ===========Header=========== */
-.header {
-    position: relative;
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap {
+      position: relative;
+    display: flex; /* Thêm display: flex để loại bỏ collapse*/
+    flex-direction: column;
     background: #e6f0ff;
     height: 100vh;
 }
 .navbar {
-    display: flex;
+     display: flex;
     align-items: center;
-    padding-top: 50px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
+    /* background: orange; */
 }
 .navbar ul {
     display: flex;
